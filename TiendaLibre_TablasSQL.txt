@@ -1,0 +1,9 @@
+-User: (ID, name, lastName, dni, birthDate, email, registerDate, cellphone, address, country, city, pwHash, pwSalt, UserRole, reputationLvl, profileImage)
+
+-Products: (ID, name, category, brand, model, price, stockQty, fk_userSellerID)
+
+-Images: (ID, name, fk_productID)
+
+-Purchases: (ID, fk_productID,  fk_userCostumerID, state)
+
+-Announcement:(ID, msg, read, UserIdReciever, fk_purchaseID)
